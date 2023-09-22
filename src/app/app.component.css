@@ -1,0 +1,8 @@
+.container {
+  margin-bottom: 10px;
+}
+
+.container > * {
+  display: block; /* Define todos os elementos filhos como blocos */
+  margin-bottom: 10px; /* Espaço entre os elementos */
+}

@@ -1,0 +1,31 @@
+<hello-component name="{{ name }}"> </hello-component>
+
+<div class="container">
+<input-text-component
+  [placeholder]="inputUsername.placeholder"
+  [variant]="inputUsername.variant"
+></input-text-component>
+
+<input-text-component
+  [placeholder]="inputPassword.placeholder"
+  [variant]="inputPassword.variant"
+></input-text-component>
+
+<button-component
+  [label]="button.label"
+  [variant]="button.variant"
+></button-component>
+
+</div>
+
+<!-- interpolação -->
+<!-- <button-component label="{{ buttonLabel }}"></button-component>  -->
+
+<!-- interpolação -->
+<!-- <button-component label="Click Hele 2"></button-component> -->
+
+<!-- property binding -->
+<!-- <button-component [label]="buttonLabel"></button-component>  -->
+
+<!-- property binding -->
+<!-- <button-component [label]="'Click Hele 2'"></button-component>  -->

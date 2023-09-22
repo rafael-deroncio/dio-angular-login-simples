@@ -1,0 +1,21 @@
+button {
+  display: inline-block;
+  padding: 5px 25px;
+  font-size: 16px;
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto */
+  border: none; /* Remove a borda padrão do botão */
+  border-radius: 5px; /* Cantos arredondados */
+  cursor: pointer; /* Mostra o cursor como um ponteiro ao passar o mouse */
+  text-decoration: none; /* Remove a sublinhado padrão do link */
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+button:hover {
+  background-color: #0056b3; /* Cor de fundo alterada ao passar o mouse */
+}
+
+
+button:active {
+  background-color: #003a73; /* Cor de fundo alterada ao clicar no botão */
+}

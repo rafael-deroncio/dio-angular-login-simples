@@ -1,0 +1,14 @@
+/* Estilo para campos de entrada de texto e senha */
+.input-field {
+  width: 30%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
