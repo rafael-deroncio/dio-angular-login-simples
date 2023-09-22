@@ -10,26 +10,16 @@
     inputUsername = {
       variant: "text",
       placeholder: "username",
-      value: '' // Adicione esta propriedade
     };
   
     inputPassword = {
       variant: "password",
       placeholder: "password",
-      value: '' // Adicione esta propriedade
     };
   
     button = {
       label: 'login',
       variant: 'submit',
     };
-  
-    onUsernameChange(value: string) {
-      this.inputUsername.value = value;
-    }
-  
-    onPasswordChange(value: string) {
-      this.inputPassword.value = value;
-    }
   }
   
